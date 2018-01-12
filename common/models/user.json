@@ -1,0 +1,32 @@
+{
+  "name": "user",
+  "plural": "user",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "name"
+    },
+    "city": {
+      "type": "string",
+      "required": true,
+      "default": "HCM"
+    },
+    "typenews": {
+      "type": "string",
+      "default": "Buy"
+    },
+    "timeinsert": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
